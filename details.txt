@@ -1,0 +1,44 @@
+lib/
+  ├── main.dart
+  ├── config/
+  │   ├── theme.dart
+  │   └── routes.dart
+  ├── models/
+  │   ├── user.dart
+  │   ├── project.dart
+  │   ├── document.dart
+  │   └── message.dart
+  ├── screens/
+  │   ├── auth/
+  │   │   ├── login_screen.dart
+  │   │   └── registration_screen.dart
+  │   ├── dashboard_screen.dart
+  │   ├── project_management/
+  │   │   ├── project_list_screen.dart
+  │   │   ├── project_detail_screen.dart
+  │   │   └── create_project_screen.dart
+  │   ├── transparency/
+  │   │   ├── documentation_screen.dart
+  │   │   └── cost_breakdown_screen.dart
+  │   ├── communication/
+  │   │   ├── message_list_screen.dart
+  │   │   └── chat_screen.dart
+  │   ├── education/
+  │   │   ├── resource_list_screen.dart
+  │   │   └── article_detail_screen.dart
+  │   └── analytics/
+  │       └── reports_screen.dart
+  ├── widgets/
+  │   ├── custom_app_bar.dart
+  │   ├── project_card.dart
+  │   ├── document_upload.dart
+  │   ├── cost_item.dart
+  │   └── chat_bubble.dart
+  ├── services/
+  │   ├── auth_service.dart
+  │   ├── project_service.dart
+  │   ├── document_service.dart
+  │   └── messaging_service.dart
+  └── utils/
+      ├── validators.dart
+      └── helpers.dart
